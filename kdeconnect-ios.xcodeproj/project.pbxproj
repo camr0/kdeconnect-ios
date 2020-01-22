@@ -36,13 +36,11 @@
 		4E3871A61992355800752925 /* SplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3871A51992355800752925 /* SplitViewController.m */; };
 		4E38A3AB196CEB44006AE419 /* Calendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E38A3AA196CEB44006AE419 /* Calendar.m */; };
 		4E38A3B0196D2D36006AE419 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E38A3AF196D2D36006AE419 /* EventKit.framework */; };
-		4E44F5E819920042002B1AAF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E44F5EA19920042002B1AAF /* Localizable.strings */; };
 		4E44F5ED199204E5002B1AAF /* Localizable.strings in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4E44F5EA19920042002B1AAF /* Localizable.strings */; };
 		4E47115F19693B7F00EE5B1D /* Battery.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E47115E19693B7F00EE5B1D /* Battery.m */; };
 		4E49BCA91966661800E8AEB7 /* custumRecognizers.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E49BCA81966661800E8AEB7 /* custumRecognizers.m */; };
 		4E51BBED193FADA7007E74F4 /* Share.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E51BBEC193FADA7007E74F4 /* Share.m */; };
 		4E6A6222199C569D009FCCD9 /* InAppSettings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4E6A6221199C569D009FCCD9 /* InAppSettings.bundle */; };
-		4E7CB6611985F7EA00DEB3B3 /* Pods-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4E7CB6601985F7EA00DEB3B3 /* Pods-acknowledgements.plist */; };
 		4E85B96C1928F9D600EF3C55 /* DeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E85B96B1928F9D600EF3C55 /* DeviceViewController.m */; };
 		4E95A1911949954600647948 /* SettingsStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E95A1901949954600647948 /* SettingsStore.m */; };
 		4EA77E08199092E3002787B8 /* MyStyleKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA77E07199092E3002787B8 /* MyStyleKit.m */; };
@@ -62,7 +60,6 @@
 		4EEB006F19736D4D000A1F69 /* Reminder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EEB006E19736D4D000A1F69 /* Reminder.m */; };
 		4EF576E9194784D80046213D /* AppSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF576E8194784D80046213D /* AppSettingViewController.m */; };
 		B4ACDD89F5415F471F44E321 /* libPods-kdeconnect-iosTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48936D7CA4850B1293AC4D47 /* libPods-kdeconnect-iosTests.a */; };
-		CDF3929BB4CB40FCA1F80352 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E2F71AC6EE495B8966C774 /* libPods.a */; };
 		EB6EF32D0D079314C7898EB4 /* libPods-kdeconnect-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C4C5E78DA56A4E0D564DBAC /* libPods-kdeconnect-ios.a */; };
 /* End PBXBuildFile section */
 
@@ -208,7 +205,6 @@
 				4E08A1EA1913CF850056EEF8 /* CoreGraphics.framework in Frameworks */,
 				4E08A1EC1913CF850056EEF8 /* UIKit.framework in Frameworks */,
 				4E08A1E81913CF850056EEF8 /* Foundation.framework in Frameworks */,
-				CDF3929BB4CB40FCA1F80352 /* libPods.a in Frameworks */,
 				EB6EF32D0D079314C7898EB4 /* libPods-kdeconnect-ios.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,7 +499,6 @@
 				4E08A1E01913CF850056EEF8 /* Sources */,
 				4E08A1E11913CF850056EEF8 /* Frameworks */,
 				4E08A1E21913CF850056EEF8 /* Resources */,
-				D48E30206BE04BD8A5566DC8 /* Copy Pods Resources */,
 				4E44F5EC199204C5002B1AAF /* CopyFiles */,
 				76BC9BE865D1313362646A48 /* [CP] Copy Pods Resources */,
 			);
@@ -545,7 +540,7 @@
 				ORGANIZATIONNAME = yangqiao;
 				TargetAttributes = {
 					4E08A1E31913CF850056EEF8 = {
-						DevelopmentTeam = 34RXKJTKWE;
+						DevelopmentTeam = UTEH9FX994;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 0;
@@ -588,10 +583,8 @@
 			files = (
 				4E6A6222199C569D009FCCD9 /* InAppSettings.bundle in Resources */,
 				4EC750B71967084800785A49 /* KeychainAccessGroups.plist in Resources */,
-				4E7CB6611985F7EA00DEB3B3 /* Pods-acknowledgements.plist in Resources */,
 				4E08A1FE1913CF850056EEF8 /* Main_iPad.storyboard in Resources */,
 				4E08A2031913CF850056EEF8 /* Images.xcassets in Resources */,
-				4E44F5E819920042002B1AAF /* Localizable.strings in Resources */,
 				4E08A1FB1913CF850056EEF8 /* Main_iPhone.storyboard in Resources */,
 				4E08A1F21913CF850056EEF8 /* InfoPlist.strings in Resources */,
 			);
@@ -644,21 +637,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D48E30206BE04BD8A5566DC8 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D78626BBE111AADE989BAAE3 /* [CP] Check Pods Manifest.lock */ = {
@@ -837,6 +815,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -891,6 +870,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -916,11 +896,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = UTEH9FX994;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "kdeconnect-ios/kdeconnect-ios-Prefix.pch";
 				INFOPLIST_FILE = "kdeconnect-ios/kdeconnect-ios-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.kde.kdeconnect-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = "camro.org.kde.kdeconnect-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -936,11 +917,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = UTEH9FX994;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "kdeconnect-ios/kdeconnect-ios-Prefix.pch";
 				INFOPLIST_FILE = "kdeconnect-ios/kdeconnect-ios-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.kde.kdeconnect-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = "camro.org.kde.kdeconnect-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
