@@ -17,6 +17,7 @@ DerivedData
 *.hmap
 *.xcworkspace
 *.xcbkplist
+*/xcuserdata/*
 
 #CocoaPods
 Pods
